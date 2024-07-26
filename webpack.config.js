@@ -12,5 +12,5 @@ module.exports = {
         path: path.resolve(__dirname, "public", 'dist'),
     },
     watch: true,
-    mode: "development",
+    mode: "production",
 }

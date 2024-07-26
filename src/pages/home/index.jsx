@@ -10,10 +10,10 @@ export default function Home() {
     let removeHomeScript, removeTweenScript, removePluginScript, removeBgAnimationScript;
     const loadScripts = async () => {
       try {
-        removeHomeScript = await addScript(process.env.REACT_APP_BASE_URL + "/dist/typing.bundle.js");
+        removeHomeScript = await addScript(process.env.REACT_APP_BASE_URL + "dist/typing.bundle.js");
         removePluginScript = await addScript("https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/plugins/CSSPlugin.min.js");
         removeTweenScript = await addScript("https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenLite.min.js");
-        removeBgAnimationScript = await addScript(process.env.REACT_APP_BASE_URL + "/dist/bgAnimation.bundle.js");
+        removeBgAnimationScript = await addScript(process.env.REACT_APP_BASE_URL + "dist/bgAnimation.bundle.js");
       } catch (error) {
         console.error("Script yükleme hatası:", error);
       }

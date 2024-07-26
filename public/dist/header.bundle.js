@@ -1,1 +1,0 @@
-!function(){const e=document.querySelector(".headerPart .container nav");Array.from(document.querySelectorAll(".headerPart .container nav ul li a")).forEach(((r,a)=>{r.onmouseover=()=>{e.dataset.activeIndex=a}}))}();

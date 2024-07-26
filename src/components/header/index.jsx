@@ -15,7 +15,7 @@ export default function Header({ isHome, isMenuOpen, setIsMenuOpen }) {
     let removeHeaderScript;
     const loadScripts = async () => {
       try {
-        removeHeaderScript = await addScript(process.env.REACT_APP_BASE_URL + "/dist/header.bundle.js");
+        removeHeaderScript = await addScript(process.env.REACT_APP_BASE_URL + "assets/js/header.js");
       } catch (error) {
         console.error("Script yükleme hatası:", error);
       }

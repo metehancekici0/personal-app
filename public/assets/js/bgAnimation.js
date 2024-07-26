@@ -1,4 +1,5 @@
-function animateWithRandomNumber(e, t, s) {
+(function () {
+  function animateWithRandomNumber(e, t, s) {
     TweenLite.fromTo(
       e,
       Math.floor(20 * Math.random() + 1),
@@ -32,4 +33,5 @@ function animateWithRandomNumber(e, t, s) {
       '.light10',
       '.light17'
     ].forEach(e => animateWithRandomNumber(e, 1080, -1080))
-    
+
+})();

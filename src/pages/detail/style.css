@@ -1,0 +1,115 @@
+.detail .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail .row figure {
+    width: calc(100% - 560px);
+    margin-right: 60px;
+}
+
+.detail .row figure img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.detail .row .sidebar {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail .row .sidebar .field:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.detail .row .sidebar .field {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+}
+
+.detail .row .sidebar .field .header {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background-color: #3c3c3c;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.detail .row .sidebar .field .body {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail .row .sidebar .field .body li {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.detail .row .sidebar .field .body li h3 {
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+.detail .row .sidebar .field .body li p,
+.detail .row .sidebar .field .body li a {
+    font-size: .9em;
+    font-weight: 400;
+    letter-spacing: -.1px;
+}
+
+.detail .row .sidebar .field .body li:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.detail .row .sidebar .field .body .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detail .row .sidebar .field .body .links a {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+    line-height: 125%;
+    width: calc(100% / 2 - 6px);
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-size: .9em;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.detail .row .sidebar .field .body .links a:hover {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.detail .row .sidebar .field.another-features .body li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.detail .row .sidebar .field.another-features .body li svg {
+    color: #5cb85c;
+    margin-right: 10px;
+}
+
+.detail .row .sidebar .field.another-features .body li p {
+    font-size: .9em;
+}

@@ -1,0 +1,199 @@
+.headerPart {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 9999;
+}
+
+.headerPart .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headerPart nav ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+.headerPart nav ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.headerPart nav ul li a {
+    color: #fff;
+    font-size: 1em;
+    text-shadow: 0 2px 3px rgb(0 0 0 / 40%), 0 2px 5px rgb(0 0 0 / 10%), 0 18px 23px rgb(0 0 0 / 10%);
+    transition: background .3s ease;
+    padding: 7.5px 12.5px;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.headerPart nav ul li a.active {
+    background: rgba(0, 0, 0, .15);
+    pointer-events: none;
+}
+
+.headerPart nav ul li a:hover {
+    background: rgba(0, 0, 0, .15);
+}
+
+.toggleThemeBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: background .3s ease;
+}
+
+.toggleThemeBtn:hover {
+    background: rgba(0, 0, 0, .15);
+}
+
+.toggleThemeBtn svg {
+    color: #fff;
+    font-size: 22px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));
+}
+
+.headerPart .computer {
+    display: flex;
+    align-items: center;
+}
+
+.menu-background-image {
+    display: none;
+}
+
+.headerPart .mobile.show .menu-background-image {
+    display: block;
+}
+
+.headerPart .mobile {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background: #3c3c3c;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    z-index: 9999;
+}
+
+
+.headerPart .mobile .closeBtn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 90;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+
+.headerPart .mobile .closeBtn:hover {
+    background: rgba(0, 0, 0, .2);
+}
+
+.headerPart .mobile .closeBtn svg {
+    color: #fff;
+    font-size: 25px;
+}
+
+.menu-toggle-btn {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background .3s ease;
+    display: none;
+}
+
+.menu-toggle-btn:hover {
+    background: rgba(0, 0, 0, .15);
+}
+
+.menu-toggle-btn svg {
+    font-size: 22px;
+}
+
+.toggleLanguageBtn {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background .3s ease;
+}
+
+.toggleLanguageBtn:hover {
+    background: rgba(0, 0, 0, .15);
+}
+
+.subHeader {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    background-color: #f1f1f1;
+    height: 70px;
+}
+
+.subHeader .computer nav ul li a {
+    color: #000;
+    text-shadow: none;
+}
+
+.subHeader nav ul li a:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.subHeader nav ul li a.active {
+    background: rgba(0, 0, 0, .05);
+}
+
+.subHeader .toggleThemeBtn svg {
+    color: #000;
+    filter: none;
+}
+
+.subHeader .toggleThemeBtn:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.subHeader .menu-toggle-btn,
+.subHeader .toggleLanguageBtn {
+    color: #000;
+}
+
+.subHeader .menu-toggle-btn:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.subHeader .toggleLanguageBtn:hover {
+    background: rgba(0, 0, 0, .05);
+}

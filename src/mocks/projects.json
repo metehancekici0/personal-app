@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Weather App",
+    "url": "weather-app",
+    "image": "project1.jpeg",
+    "refLink": "https://weather-app-metehan.netlify.app/",
+    "githubLink": "https://github.com/metehancekici0/weather-api",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "ReactJS"],
+    "description": "Türkiye'nin herhangi bir ilinin anlık hava durumu bilgilerini veren bir uygulama.",
+    "description_en": "An application that provides instant weather information for any province in Turkey.",
+    "features": []
+  },
+  {
+    "id": 2,
+    "title": "Quiz App",
+    "url": "quiz-app",
+    "image": "project2.jpeg",
+    "refLink": "https://64eb6c3b80904f7203692076--quizappmetehan.netlify.app/",
+    "githubLink": "https://github.com/metehancekici0/quiz-app",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "ReactJS"],
+    "description": "Tamamen React Hooklar ile yapılmış sıradan bir test uygulaması.",
+    "description_en": "An ordinary test application made entirely with React Hooks.",
+    "features": []
+  },
+  {
+    "id": 3,
+    "title": "Shopping Card App",
+    "url": "shopping-card-app",
+    "image": "project3.jpeg",
+    "refLink": "https://commerce-v1-metehan.netlify.app/",
+    "githubLink": "https://github.com/metehancekici0/shopping-cart",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "ReactJS", "Responsive"],
+    "description": "React ile geliştirilmiş bir alışveriş sepeti uygulaması.",
+    "description_en": "A shopping cart application developed with React.",
+    "features": ["100% Mobil Uyumlu", "Anlık sepet güncelleme işlemleri"],
+    "features_en": ["100% Mobile Compatible", "Instant basket update operations"]
+  },
+  {
+    "id": 4,
+    "title": "Blog App",
+    "url": "blog-app",
+    "image": "project4.jpeg",
+    "refLink": "https://blog-app-metehan.netlify.app/",
+    "githubLink": "https://github.com/metehancekici0/blog-app",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "jQuery", "Responsive", "W3C"],
+    "description": "Kullanıcıların üye olarak yazı yayınlayabildiği bir blog uygulaması.",
+    "description_en": "A blog application where users can publish articles as a member.",
+    "features": ["Üyelik Sistemi", "100% Mobil Uyumlu", "Karanlık Tema", "Özel Tasarım"],
+    "features_en": ["Membership System", "100% Mobile Compatible", "Dark Theme", "Special Design"]
+  }
+]

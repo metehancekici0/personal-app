@@ -1,0 +1,50 @@
+.skeleton .about .container {
+    display: flex;
+}
+
+.skeleton .about .photo {
+    float: none;
+}
+
+.skeleton .about .photo div {
+    width: 250px;
+    height: 100%;
+}
+
+.skeleton .about .content {
+    width: calc(100% - 300px);
+}
+
+.skeleton .about .content .title {
+    height: 30px;
+    width: 100%;
+}
+
+.skeleton .about .content .text {
+    width: 100%;
+    height: 265px;
+}
+
+.skeleton .about .content .links {
+    height: 30px;
+    width: 100%;
+}
+
+.skeleton .skills .item .bar {
+    border-radius: 0;
+    border: none;
+}
+
+.skeleton .skills .item .right {
+    justify-content: center;
+}
+
+.skeleton .skills .item .title {
+    height: 10px;
+    width: 85px;
+}
+
+.skeleton .skills .item .experiance {
+    height: 10px;
+    width: 85px;
+}

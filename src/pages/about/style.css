@@ -1,0 +1,161 @@
+.about .container .photo {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+}
+
+.about .container .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+}
+
+.about .container .content .title {
+    font-size: 1.6em;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.about .container .content .text {
+    font-size: .975em;
+    line-height: 24px;
+}
+
+.about .container .content .text p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.about .container .content .links {
+    margin-top: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about .container .content .links a {
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    font-size: 14px;
+    padding: 0 10px;
+    align-items: center;
+    display: inline-flex;
+    color: #fff;
+    text-shadow: 0 2px 3px rgb(0 0 0 / 40%), 0 2px 5px rgb(0 0 0 / 10%), 0 18px 23px rgb(0 0 0 / 10%);
+}
+
+.about .container .content .links a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.about .container .content .links a svg {
+    margin-right: 5px;
+    font-size: 17px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .3));
+}
+
+
+.about .container .content .links .btnMail {
+    background-color: #606060;
+}
+
+.about .container .content .links .btnWhatsapp {
+    background-color: #48c456;
+}
+
+.about .container .content .links .btnResume {
+    background-color: #d9534f;
+}
+
+.skills .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills .container .item {
+    display: flex;
+    width: calc(100% / 2 - 25px);
+}
+
+.skills .container .item .left {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .container .item .left img {
+    width: 35px;
+    height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    object-fit: contain;
+}
+
+.skills .container .item .right {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 60px);
+}
+
+.skills .container .item:nth-child(odd) {
+    margin-right: 50px;
+}
+
+.skills .container .item:not(:nth-last-child(-n+2)) {
+    margin-bottom: 20px;
+}
+
+.skills .container .item .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills .container .item .header .title {
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.skills .container .item .header .experiance {
+    color: #3c3c3c;
+    font-size: 12px;
+}
+
+.skills .container .item .bar {
+    background: #eee;
+    border: 1px solid #d3d3d3;
+    height: 10px;
+    margin-top: 2px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.skills .container .item .bar .score {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 16px 16px;
+    background-color: #28a745;
+    box-shadow: inset 0 -2px 0 rgb(0 0 0 / 15%);
+    webkit-animation: 1s linear infinite progress-bar-stripes;
+    animation: 1s linear infinite progress-bar-stripes;
+}
+
+@keyframes progress-bar-stripes {
+    from {
+        background-position: 16px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}

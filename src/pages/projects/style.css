@@ -1,0 +1,86 @@
+.portfolio .projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio .projects .item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 24px);
+    margin: 12px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.portfolio .projects .item figure {
+    height: 270px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio .projects .item figure:hover img {
+    transform: scale(105%);
+}
+
+.portfolio .projects .item figure:hover a {
+    visibility: visible;
+    opacity: 1;
+}
+
+.portfolio .projects .item figure a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.portfolio .projects .item figure:hover a button {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio .projects .item figure a button {
+    background-color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 15px;
+    pointer-events: none;
+    user-select: none;
+    transform: scale(.3);
+    visibility: hidden;
+    opacity: .3;
+    transition: all .3s ease;
+}
+
+.portfolio .projects .item figure a button svg {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.portfolio .projects .item figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s ease;
+}
+
+.portfolio .projects .item .content {
+    padding: 20px;
+    background-color: #f9f9f9;
+}

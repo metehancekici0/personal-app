@@ -45,7 +45,6 @@ export default function About() {
                 <p>{t("hakkimda_p1")}</p>
                 <p>{t("hakkimda_p2")}</p>
                 <p>{t("hakkimda_p3")}</p>
-                <p>{t("hakkimda_p4")}</p>
               </div>
               <div className="links">
                 <Link to="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=metehancekici0@gmail.com" target="_blank" className="btnMail">
@@ -70,7 +69,7 @@ export default function About() {
               <div className="right">
                 <div style={{ width: "98%" }} className="header">
                   <span className="title">HTML</span>
-                  <span className="experiance">3 {t("yil2")} (98%)</span>
+                  <span className="experiance">4 {t("yil2")} (98%)</span>
                 </div>
                 <div className="bar">
                   <div style={{ width: "98%" }} className="score"></div>
@@ -84,7 +83,7 @@ export default function About() {
               <div className="right">
                 <div style={{ width: "98%" }} className="header">
                   <span className="title">CSS</span>
-                  <span className="experiance">3 {t("yil2")} (98%)</span>
+                  <span className="experiance">4 {t("yil2")} (98%)</span>
                 </div>
                 <div className="bar">
                   <div style={{ width: "98%" }} className="score"></div>
@@ -98,7 +97,7 @@ export default function About() {
               <div className="right">
                 <div style={{ width: "95%" }} className="header">
                   <span className="title">JavaScript</span>
-                  <span className="experiance">1-2 {t("yil2")} (95%)</span>
+                  <span className="experiance">4 {t("yil2")} (95%)</span>
                 </div>
                 <div className="bar">
                   <div style={{ width: "95%" }} className="score"></div>
@@ -112,7 +111,7 @@ export default function About() {
               <div className="right">
                 <div style={{ width: "80%" }} className="header">
                   <span className="title">React.js</span>
-                  <span className="experiance">0-1 {t("yil1")} (80%)</span>
+                  <span className="experiance">1-2 {t("yil1")} (90%)</span>
                 </div>
                 <div className="bar">
                   <div style={{ width: "80%" }} className="score"></div>
@@ -126,7 +125,7 @@ export default function About() {
               <div className="right">
                 <div style={{ width: "65%" }} className="header">
                   <span className="title">Next.js</span>
-                  <span className="experiance">0-1 {t("yil1")} (65%)</span>
+                  <span className="experiance">0-1 {t("yil1")} (60%)</span>
                 </div>
                 <div className="bar">
                   <div style={{ width: "65%" }} className="score"></div>
@@ -154,7 +153,7 @@ export default function About() {
               <div className="right">
                 <div style={{ width: "85%" }} className="header">
                   <span className="title">PHP</span>
-                  <span className="experiance">1-2 {t("yil2")} (85%)</span>
+                  <span className="experiance">1-2 {t("yil2")} (90%)</span>
                 </div>
                 <div className="bar">
                   <div style={{ width: "85%" }} className="score"></div>

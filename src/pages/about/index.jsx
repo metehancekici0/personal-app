@@ -109,12 +109,12 @@ export default function About() {
                 <img src="./assets/images/skills/react.png" alt="" />
               </div>
               <div className="right">
-                <div style={{ width: "80%" }} className="header">
+                <div style={{ width: "90%" }} className="header">
                   <span className="title">React.js</span>
                   <span className="experiance">1-2 {t("yil1")} (90%)</span>
                 </div>
                 <div className="bar">
-                  <div style={{ width: "80%" }} className="score"></div>
+                  <div style={{ width: "90%" }} className="score"></div>
                 </div>
               </div>
             </div>
@@ -123,12 +123,12 @@ export default function About() {
                 <img src="./assets/images/skills/nextjs.png" alt="" />
               </div>
               <div className="right">
-                <div style={{ width: "65%" }} className="header">
+                <div style={{ width: "60%" }} className="header">
                   <span className="title">Next.js</span>
                   <span className="experiance">0-1 {t("yil1")} (60%)</span>
                 </div>
                 <div className="bar">
-                  <div style={{ width: "65%" }} className="score"></div>
+                  <div style={{ width: "60%" }} className="score"></div>
                 </div>
               </div>
             </div>
@@ -151,12 +151,12 @@ export default function About() {
                 <img src="./assets/images/skills/php.png" alt="" />
               </div>
               <div className="right">
-                <div style={{ width: "85%" }} className="header">
+                <div style={{ width: "90%" }} className="header">
                   <span className="title">PHP</span>
                   <span className="experiance">1-2 {t("yil2")} (90%)</span>
                 </div>
                 <div className="bar">
-                  <div style={{ width: "85%" }} className="score"></div>
+                  <div style={{ width: "90%" }} className="score"></div>
                 </div>
               </div>
             </div>

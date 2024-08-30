@@ -53,7 +53,7 @@ export default function About() {
                 <Link to="https://wa.me/905523708602" target="_blank" className="btnWhatsapp">
                   <FaWhatsapp /> WhatsApp
                 </Link>
-                <Link to="/assets/CV_METEHAN_CEKICI.pdf" className="btnResume" target="_blank">
+                <Link to="/assets/MetehanÇekici.pdf" className="btnResume" target="_blank">
                   <FaDownload /> <p>{t("hakkimda_btn2")}</p>
                 </Link>
               </div>
